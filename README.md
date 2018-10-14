@@ -8,34 +8,36 @@ Time spent: **20** hours spent in total
 
 ## Pentesting Report
 
+(Required) WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
 1. (Required) XSS
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+  - [ ] Summary: XSS
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
+  - [ ] GIF Walkthrough: <img src='1.gif' width=800>
+  - [ ] Steps to recreate: Autheticated user must comment <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAA...[64KB]...AAA></a> to successfully plan the vulnerability.
+  - [ ] Affected source code:
+    
+    
+2. (Required) XSS
+  - [ ] Summary: YouTube embedded
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-2. (Required) SQLI
+  
+  3. (Required) XSS
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-3. (Required) CSRF
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
+  
+  
 ## Assets
 
 List any additional assets, such as scripts or files
@@ -53,7 +55,7 @@ Describe any challenges encountered while doing the work
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Jisheng Huang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
