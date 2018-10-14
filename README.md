@@ -34,8 +34,8 @@ Time spent: **20** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.7.2
     - Fixed in version: 4.7.3
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] GIF Walkthrough: <img src='3.gif' width=800>
+  - [ ] Steps to recreate: You have to upload any file with greater 2MB, this file must be named with malicious javascript source tag.
   - [ ] Affected source code:
   
   
